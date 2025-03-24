@@ -1,7 +1,7 @@
 [gd_scene load_steps=5 format=3 uid="uid://bt7s7jnukc3tc"]
 
 [ext_resource type="Script" uid="uid://ej26v720pe7b" path="res://Scripts/main.gd" id="1_0xm2m"]
-[ext_resource type="PackedScene" uid="uid://vcq8agenen1b" path="res://detail-crystal.glb" id="2_h2yge"]
+[ext_resource type="PackedScene" uid="uid://vcq8agenen1b" path="res://Assets/detail-crystal.glb" id="2_h2yge"]
 [ext_resource type="Script" uid="uid://rasoerqx36wi" path="res://Scripts/camera_3d.gd" id="3_h2yge"]
 
 [sub_resource type="Environment" id="Environment_7dm0k"]

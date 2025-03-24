@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://vcq8agenen1b"
-path="res://.godot/imported/detail-crystal.glb-ea2ce326de0764c198a24b5342e53fb0.scn"
+path="res://.godot/imported/detail-crystal.glb-45a89ad7124142712d3657d4be313ec0.scn"
 
 [deps]
 
-source_file="res://detail-crystal.glb"
-dest_files=["res://.godot/imported/detail-crystal.glb-ea2ce326de0764c198a24b5342e53fb0.scn"]
+source_file="res://Assets/detail-crystal.glb"
+dest_files=["res://.godot/imported/detail-crystal.glb-45a89ad7124142712d3657d4be313ec0.scn"]
 
 [params]
 
