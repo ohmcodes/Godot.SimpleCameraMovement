@@ -1,6 +1,8 @@
 # Godot.SimpleCameraMovement
 Simple Camera Movement using WASD Zoom In/Out Right Click Dragging
+
 (Windows Only) Mouse/Click Passthrough - let you work around behind your game
+
 Transparent Background
 
 # PLEASE ⭐STAR⭐ THE REPO IF YOU LIKE IT! THANKS!
