@@ -12,8 +12,12 @@ config_version=5
 
 config/name="Camera3DMovements"
 run/main_scene="res://main.tscn"
-config/features=PackedStringArray("4.4", "GL Compatibility")
+config/features=PackedStringArray("4.4", "C#", "GL Compatibility")
 config/icon="res://icon.svg"
+
+[autoload]
+
+MousePassThrough="*res://Scripts/MousePassThrough.cs"
 
 [display]
 
@@ -21,6 +25,10 @@ window/size/borderless=true
 window/size/always_on_top=true
 window/size/transparent=true
 window/per_pixel_transparency/allowed=true
+
+[dotnet]
+
+project/assembly_name="Camera3DMovements"
 
 [input]
 

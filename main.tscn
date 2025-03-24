@@ -1,16 +1,16 @@
 [gd_scene load_steps=5 format=3 uid="uid://bt7s7jnukc3tc"]
 
-[ext_resource type="Script" uid="uid://d2mwxowqxpuqa" path="res://main.gd" id="1_ig7tw"]
-[ext_resource type="PackedScene" uid="uid://vcq8agenen1b" path="res://detail-crystal.glb" id="2_0xm2m"]
-[ext_resource type="Script" uid="uid://rasoerqx36wi" path="res://camera_3d.gd" id="3_h2yge"]
+[ext_resource type="Script" uid="uid://ej26v720pe7b" path="res://Scripts/main.gd" id="1_0xm2m"]
+[ext_resource type="PackedScene" uid="uid://vcq8agenen1b" path="res://detail-crystal.glb" id="2_h2yge"]
+[ext_resource type="Script" uid="uid://rasoerqx36wi" path="res://Scripts/camera_3d.gd" id="3_h2yge"]
 
 [sub_resource type="Environment" id="Environment_7dm0k"]
 background_color = Color(0.373669, 0.705178, 0.999999, 1)
 ambient_light_color = Color(1, 1, 1, 1)
 
 [node name="Main" type="Node3D"]
-script = ExtResource("1_ig7tw")
-obj = ExtResource("2_0xm2m")
+script = ExtResource("1_0xm2m")
+obj = ExtResource("2_h2yge")
 
 [node name="Camera3D" type="Camera3D" parent="."]
 transform = Transform3D(0.999988, 2.32828e-10, 0.0048869, -0.00245371, 0.86481, 0.502094, -0.00422624, -0.5021, 0.8648, 0, 5.08131, 8.38823)
