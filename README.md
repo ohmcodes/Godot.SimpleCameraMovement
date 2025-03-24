@@ -16,7 +16,7 @@ Video Tutorial
 - [Part 2](https://youtu.be/G_HGt1CcRRI)
 
 Transparent Settings
-- Set your engine to Compatibility (see image below)
+- Set your engine to `Compatibility` (see image below)
 - Navigate to `Project > General`
 - `Display > Window` Set settings below
   - `Borderless` -> On
@@ -33,7 +33,7 @@ Mouse passthrough settings
 - Node Name: `depends on you`
 - Make sure it is `Enabled`
 
-Set to Compatibility (Because old and new Video card wont do transparent background if you are using `Forward+`)
+Set to `Compatibility` (Because old and new Video card won't do transparent background if you are using `Forward+`)
 
 ![image](https://github.com/user-attachments/assets/cf241b10-bd54-420a-8f00-8cc8f47246c7)
 
