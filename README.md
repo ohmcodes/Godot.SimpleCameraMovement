@@ -28,7 +28,7 @@ Transparent Settings
 - `WorldEnvironment NODE` -> Set background `Mode` -> Clear color (if still not work try to clear the `Ambient Light` Color aswel
 
 Mouse passthrough settings
-- Navigate to Project > Globals
+- Navigate to `Project > Globals`
 - Browse your script `Scripts\MousePassThrough.cs`
 - Node Name: `depends on you`
 - Make sure it is `Enabled`
