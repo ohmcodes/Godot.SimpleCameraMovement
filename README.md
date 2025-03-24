@@ -34,9 +34,11 @@ Mouse passthrough settings
 - Make sure it is `Enabled`
 
 Set to Compatibility (Because old and new Video card wont do transparent background if you are using `Forward+`)
+
 ![image](https://github.com/user-attachments/assets/cf241b10-bd54-420a-8f00-8cc8f47246c7)
 
 Build C# 
+
 ![image](https://github.com/user-attachments/assets/954540fd-f6a1-4a4f-aa31-32c0fab2d481)
 
 
