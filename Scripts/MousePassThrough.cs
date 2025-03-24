@@ -5,6 +5,8 @@ using System.Runtime.InteropServices;
 
 public partial class MousePassThrough : Node
 {
+	// https://learn.microsoft.com/en-us/windows/win32/api/winuser/
+	
 	[DllImport("user32.dll")]
 	private static extern IntPtr GetActiveWindow(); // GetActiveWindow() retrieves the handle of the window. 
 
@@ -22,7 +24,6 @@ public partial class MousePassThrough : Node
 	[DllImport("user32.dll")]
 	static extern bool SetForegroundWindow(IntPtr hWnd); // Brings the thread that created the specified window into the foreground and activates the window. Keyboard input is directed to the window, and various visual cues are changed for the user. The system assigns a slightly higher priority to the thread that created the foreground window than it does to other threads.
 	
-	// https://learn.microsoft.com/en-us/windows/win32/api/winuser/nf-winuser-setwindowlonga
 	const int GWL_EXSTYLE = -20; // Sets a new extended window style. 
 	const int WS_EX_LAYERED = 0x00080000; // The window is a layered window. This style cannot be used if the window has a class style of either CS_OWNDC or CS_CLASSDC. Windows 8: The WS_EX_LAYERED style is supported for top-level windows and child windows. Previous Windows versions support WS_EX_LAYERED only for top-level windows.
 	const int WS_EX_TRANSPARENT = 0x00000020; // The window should not be painted until siblings beneath the window (that were created by the same thread) have been painted. The window appears transparent because the bits of underlying sibling windows have already been painted. To achieve transparency without these restrictions, use the SetWindowRgn function.
